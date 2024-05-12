@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET-MVC-ClassPractice", "ASPNET-MVC-ClassPractice\ASPNET-MVC-ClassPractice.csproj", "{30151B1A-731D-4D6A-8578-1AFA99006653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30151B1A-731D-4D6A-8578-1AFA99006653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30151B1A-731D-4D6A-8578-1AFA99006653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30151B1A-731D-4D6A-8578-1AFA99006653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30151B1A-731D-4D6A-8578-1AFA99006653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1542D002-7213-49D1-A3A8-590E996476E5}
+	EndGlobalSection
+EndGlobal

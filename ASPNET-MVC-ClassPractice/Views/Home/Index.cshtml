@@ -1,0 +1,44 @@
+﻿
+@using ASPNET_MVC_ClassPractice.ViewModels
+@model HomeVM
+@{
+    string text = "Welcome to home page";
+    string[] students = { "Emirastan", "Fexriyye", "Elmir", "Ilgar", "Nurlan" };
+}
+
+
+
+<h1 style=" background-color:red">@text</h1>
+
+<ul>
+    @foreach(var item in Model.Students)
+    {
+        <li>@item</li>
+    }
+
+
+    @* <li>Veli</li>
+    <li>Pirveli</li> *@
+</ul>
+
+
+
+<h1>@Model.Text</h1>
+
+
+<ul>
+  @for (int i = 0; i < Model.Students.Count; i++)
+    {
+        <li>@Model.Students[i]</li>
+
+    }
+
+  
+</ul>
+
+@foreach (var item in Model.Users)
+{
+    <h3>@(item.Id + " - " + item.Age)</h3>
+}
+
+
